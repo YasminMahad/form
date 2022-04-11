@@ -54,6 +54,9 @@ form .user-details .input-box {
     margin-bottom: 15px;
     
 }
+.user-details{
+    display: inline;
+}
 .user-details .input-box .details {
     display: block;
     font-weight: 500;
@@ -141,24 +144,28 @@ form .button input:hover{
 }
 
 .center {
-    position: absolute;
+    /* position: relative; */
    transform: translate(-50%,-50%);
    width: 400px;
    background-color: white;
    border-radius: 10px;
-   padding: 15px;
+   justify-items: center;
+   align-items: center;
+   margin-top: 35%;
+   margin-left: 30%;
+
 
 
 }
 
 .center h1 {
     text-align: center;
-    padding: 20px 0 20px 0;
+    padding: 0 0 20px 0;
     border-bottom: 1px solid silver;
 }
 
 .center form {
-    padding:40px;
+    padding: 0 40px;
     box-sizing: border-box;
 
 }
@@ -171,7 +178,7 @@ form .txt_field {
 
 .txt_field input {
     width: 100%;
-    padding: 5px;
+    padding: 0 5px;
     height: 40px;
     font-size: 16px;
     border: none;
