@@ -144,7 +144,6 @@ form .button input:hover{
 }
 
 .center {
-    /* position: relative; */
    transform: translate(-50%,-50%);
    width: 400px;
    background-color: white;
